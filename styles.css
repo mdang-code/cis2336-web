@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ivory;
+    font-family:'Popins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+nav {
+    background: red;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    padding: 0px 25px 0px 25px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav .left a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+nav .right a{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 0 10px;
+}
